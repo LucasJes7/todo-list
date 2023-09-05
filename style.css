@@ -25,4 +25,6 @@
   button{
     border-radius: 6px;
     background-color:#9cc47b;
+    cursor: pointer;
   }
+  

@@ -13,8 +13,8 @@
 
 <form name="form_main">
   <label for="task">Tarefa: </label> 
-  <input type="text" name="task" id="task"  placeholder="Escreva as tarefas aqui"> 
-  <button type="button" onclick="add()">Add</button>
+  <input oninput="validateInput()" type="text" name="task" id="task"  placeholder="Escreva as tarefas aqui"> 
+  <button id="addButton" type="button" onclick="add()"  disabled=true>Add</button>
 </form>
 
 <fieldset>
