@@ -1,0 +1,28 @@
+.checked {
+    text-decoration: line-through;
+  }
+
+  div{
+    display: grid;
+    justify-content: center;
+    background-color: #efefef;
+    margin-top: 17%;
+    margin-left: 770px;
+    margin-right: 770px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  fieldset{
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  input{
+    border-radius: 6px;
+  }
+
+  button{
+    border-radius: 6px;
+    background-color:#9cc47b;
+  }
